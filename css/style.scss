@@ -1,0 +1,62 @@
+@import "reset.css";
+body {
+	background-color: #65617d;
+
+
+	main {
+		display: flex;
+		flex-flow: row wrap;
+		border-radius: 10px;
+		margin-top: 30px;
+		section {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-around;
+			width: 100%;			
+			article {
+				display: flex;
+				justify-content: center;
+				flex-flow: row wrap;
+				width: 400px;
+				background-color: #f5f5f5;
+				border-radius:20px;
+				figure {
+					&.logo-nike {
+						justify-content: center;
+						padding: 20px 0;
+						width: 20px;	
+					}
+					&.zapatilla {
+						text-align: center;
+						padding: 20px 0;
+						width: 100%;	
+					}
+				}
+				div {
+					width: 100%;
+					text-align: center;
+					span {
+						&.ion-ios-circle-filled {
+							font-size: 20px;
+							padding: 5px;
+							&.azul {
+								color: #083780;
+							}
+							&.verde {
+								color: #68cc00;
+							}
+							&.gris {
+								color: #434b6c;
+							}									
+						}
+					}		
+				}
+			}
+		}
+	
+	}
+		
+
+}
+@import "_producto.scss";
+
